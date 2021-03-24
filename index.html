@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Te llevamos los mariscos y pescados frescos a la comodidad de tu casa, haz clic y descubre lo fácil que es pedir con nosotros.">
+    <meta name="keywords" content="mariscos, mariscos frescos, pescados frescos, pescados Panamá, Langostinos, Langostinos Panamá, pescados delivery, entrega de pescados, corvina Panamá, corvina fresca, corvina delivery">
     <title>ProducMar - Tienda online</title>
     <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="output.css">
     <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png">
+
+    <!-- prefetch -->
+    <link rel="prefetch" href="https://www.cuanto.app/producmar" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="output.css" as="style">
+    <link rel="stylesheet" href="output.css">
+    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5FKCM68MV8"></script>
@@ -24,7 +33,12 @@
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-              <a href="index.html"> <img src="../img/logoProducMar.png" alt="Imagen del logo" width="200px"> </a>
+              <a href="index.html"> 
+                <picture>
+                  <source loading="lazy" srcset="../img/logoProducMar.webp" type="image/webp">
+                  <img loading="lazy" src="../img/logoProducMar.png" alt="Imagen del logo" width="200px"> 
+                </picture>
+              </a>
             <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
@@ -46,7 +60,11 @@
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="../img/heroImage.jpg">
+            <picture>
+              <source loading="lazy" srcset="../img/heroImage.webp" type="image/webp">
+              <img loading="lazy" class="object-cover object-center rounded" alt="hero" src="../img/heroImage.jpg">
+            </picture>
+            
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Venta de mariscos
@@ -166,7 +184,10 @@
           <div class="flex flex-wrap -m-4">
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a href="https://www.cuanto.app/producmar/p/afd87e" target="BLANK" class="block relative h-48 rounded overflow-hidden">
-                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/cojinuaProductoMS.jpg">
+                <picture>
+                  <source loading="lazy" srcset="../img/cojinuaProductoMS.webp" type="image/webp">
+                  <img loading="lazy" alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/cojinuaProductoMS.jpg">
+                </picture>
               </a>
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PESCADOS</h3>
@@ -176,7 +197,11 @@
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a href="https://www.cuanto.app/producmar/p/033152" target="BLANK" class="block relative h-48 rounded overflow-hidden">
-                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/CorvinaProductoMs.jpg">
+                <picture>
+                  <source loading="lazy" srcset="../img/CorvinaProductoMs.webp" type="image/webp">
+                  <img loading="lazy" alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/CorvinaProductoMs.jpg">
+                </picture>
+                
               </a>
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PESCADOS</h3>
@@ -186,7 +211,11 @@
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a href="https://www.cuanto.app/producmar/p/719435" target="BLANK" class="block relative h-48 rounded overflow-hidden">
-                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/RobaloProductoMs.jpg">
+                <picture>
+                  <source loading="lazy" srcset="../img/RobaloProductoMs.webp" type="image/webp">
+                  <img loading="lazy" alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/RobaloProductoMs.jpg">  
+                </picture>
+                
               </a>
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PESCADOS</h3>
@@ -196,7 +225,10 @@
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a href="https://www.cuanto.app/producmar/p/748588" target="BLANK" class="block relative h-48 rounded overflow-hidden">
-                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/PargoBlancoProductoMs.jpg">
+                <picture>
+                  <source loading="lazy" srcset="../img/PargoBlancoProductoMs.webp" type="image/webp">
+                  <img loading="lazy" alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/PargoBlancoProductoMs.jpg">
+                </picture>
               </a>
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PESCADOS</h3>
@@ -206,7 +238,10 @@
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a href="https://www.cuanto.app/producmar/p/64adf7" target="BLANK" class="block relative h-48 rounded overflow-hidden">
-                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/RevolturaProductoMs.jpg">
+                <picture>
+                  <source loading="lazy" srcset="../img/RevolturaProductoMs.webp" type="image/webp">
+                  <img loading="lazy" alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/RevolturaProductoMs.jpg">
+                </picture>
               </a>
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PESCADOS</h3>
@@ -216,7 +251,10 @@
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a href="https://www.cuanto.app/producmar/p/e3571e" target="BLANK" class="block relative h-48 rounded overflow-hidden">
-                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/LangostinosProductosMs.jpg">
+                <picture>
+                  <source loading="lazy" srcset="../img/LangostinosProductosMs.webp" type="image/webp">
+                  <img loading="lazy" alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/LangostinosProductosMs.jpg">
+                </picture>
               </a>
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">MARISCOS</h3>
@@ -226,7 +264,10 @@
             </div>
              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a href="https://www.cuanto.app/producmar/p/d592a4" target="BLANK" class="block relative h-48 rounded overflow-hidden">
-                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/FileteCorvinaMs.png">
+                <picture>
+                  <source loading="lazy" srcset="../img/FileteCorvinaMs.webp" type="image/webp">
+                  <img loading="lazy" alt="ecommerce" class="object-cover object-center w-full h-full block" src="../img/FileteCorvinaMs.jpg">
+                </picture>
               </a>
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PESCADOS</h3>
@@ -250,7 +291,12 @@
       <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <a href="index.html"> <img src="../img/logoProducMar.png" alt="Imagen del logo" width="150px"> </a>
+            <a href="index.html"> 
+              <picture>
+                <source loading="lazy" srcset="../img/logoProducMar.webp" type="image/webp">
+                <img src="../img/logoProducMar.png" alt="Imagen del logo" width="150px"> 
+              </picture>
+            </a>
             <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
